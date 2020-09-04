@@ -39,24 +39,24 @@ sumButton.addEventListener('click', () => {
     const sumNum2value = sumNum2.valueAsNumber;
     const sum = sumNum1value + sumNum2value;
     newSumTotal.textContent = sum;
-    console.log(sumNewTotal);
-})
+    //console.log(sumNewTotal);
+});
 
 subButton.addEventListener('click', () => {
     const subNum1value = subNum1.valueAsNumber;
     const subNum2value = subNum2.valueAsNumber;
     const sub = subNum1value - subNum2value;
     newSubTotal.textContent = sub;
-})
+});
 
 multButton.addEventListener('click', () => {
     const multNum1value = multNum1.valueAsNumber;
     const multNum2value = multNum2.valueAsNumber;
     const mult = multNum1value * multNum2value;
     newMultTotal.textContent = mult;
-})
+});
 
-    divButton.addEventListener('click', () => {
+divButton.addEventListener('click', () => {
     const divNum1value = divNum1.valueAsNumber;
     const divNum2value = divNum2.valueAsNumber;
     const div = divNum1value / divNum2value;
